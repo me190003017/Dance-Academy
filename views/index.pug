@@ -1,0 +1,61 @@
+doctype html
+html
+    head
+        title VBK Dance Academy
+        style
+            include ../static/style.css
+    body
+        nav#navbar
+            ul
+                div#logo
+                    img(src="/static/logo.png")
+                    |VKBDA
+                li #[a(href='/') Home]
+                li #[a(href='/') About]
+                li #[a(href='/') Services]
+                li #[a(href='/') Class Info]
+                li #[a(href='/') Contact Us]
+
+        section#introSection
+            div Welcome to Bhupendra's Dance Academy
+            div.small Eat Sleep Dance Repeat 
+
+
+        section#missionSection
+            h2 Our Mission
+            div.card
+                h3 Make Dance Easy
+                div.card-box
+                    div.card-img
+                        img(src="/static/l1.png")
+                    div.card-content
+                        p This is the best dance academy of the universe
+            div.card
+                h3 To Get Perfection
+                div.card-box
+                    div.card-img
+                        img(src="/static/l4.png")
+                    div.card-content
+                        p This is the best dance academy of the universe
+            div.card
+                h3 Dancing In Your Way
+                div.card-box
+                    div.card-img
+                        img(src="/static/l2.png")
+                    div.card-content
+                        p This is the best dance academy of the universe
+        section#sponserSection
+            h2 Our sponsers
+            div#sponsers
+                //- img(src="/static/3.png",class="spimg" alt="")
+                img(src="/static/4.png",class="spimg" alt="")
+                img(src="/static/5.png",class="spimg" alt="")
+                img(src="/static/fb.svg",class="spimg" alt="")
+                img(src="/static/1.png",class="spimg" alt="")
+   
+        footer#footer
+            | Copyright © 2019 VkbdanceAcademy.com | All right reserve
+
+        script
+            include ../static/index.js    
+
