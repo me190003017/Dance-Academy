@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+#logo{
+    display: flex;
+    color:blue;
+    align-items: center;
+    margin: 0 14px;
+    margin-right: 40px;
+    font-size: larger;
+    color: #cd3232e3;
+    font-size: 15px;
+}
+#logo img{
+    filter: invert(1);
+    height: 43px;
+}
+#navbar{
+    background-color:#09ff0040;
+    font-family: 'Balsamiq Sans', cursive;
+    padding:9px 13px;
+
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+    margin: 12px 12px;
+}
+#navbar li a{
+    text-decoration: none;
+    color: #3f00ff;
+    padding: 7px 11px;
+    font-size: 1.2rem;
+}
+
+#navbar li a:hover{
+    text-decoration: none;
+    color: black;
+    
+    font-size: 1.4rem;
+}
+
+#introSection{
+    background: center/cover no-repeat url("/static/danceacademy.jpg");
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 0, 0);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 35px;
+   padding-bottom: 40px;
+}
+#introSection div.small{
+    font-size: 21px;
+    margin: 8px;
+}
+
+#sponserSection{
+    height: 279px;
+    background-color: #fbd6d6c7;
+}
+
+#sponserSection h2{
+    text-align: center;
+    padding-top: 12px;
+    font-size: 38px;
+}
+#sponsers{
+    height: 172px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+.spimg{
+    height: 80%;
+    margin: 20px;
+}
+.card{
+    justify-content: center;
+    border-radius: 13px;
+    width: 25%;
+    margin: 22px 59px;
+    height: 237px;
+    box-shadow: 0 0 black;
+    background-color: white;
+    display: inline-block;
+}
+
+.card-box{
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 100px;
+    padding: 0 14px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    padding: 0 13px;
+}
+.card-content p{
+    font-size: 27px;
+}
+
+#missionSection{
+    height: 370px;
+    background-color:#d1ede2;
+}
+
+#missionSection h2{
+    text-align: center;
+    padding-top:12px;
+    font-size: 40px;
+}
+
+#missionSection div h3{
+    text-align: center;
+    font-size: 27px;
+    padding-top:12px;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    height: 64px;
+    background-color: black;
+    color: white;
+    font-family: cursive;
+}
